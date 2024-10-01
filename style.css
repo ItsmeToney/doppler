@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+.header {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgb(209, 209, 48);
+  color: black;
+}
+
+.main {
+  height: 40rem;
+  width: 100vw;
+  background-image: url("./woman-with-pretty-smile.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  width: 100vw;
+  height: 1rem;
+  padding-top: 1rem;
+  justify-content: end;
+}
+
+.nav__link {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.section__2 {
+  margin-top: 2rem;
+  height: 40rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 35rem;
+  padding: 1rem;
+  /* border: 1px solid black; */
+}
+
+.heading {
+  text-transform: capitalize;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.tips {
+  list-style: none;
+  height: 12rem;
+  padding-top: 1rem;
+}
+
+.svg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.left {
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 5rem;
+  width: 24rem;
+  height: 35rem;
+  padding: 2rem;
+  border: 5px solid black;
+  border-radius: 30px;
+  overflow-y: scroll;
+  background-color: rgb(249, 216, 6);
+}
+
+::-webkit-scrollbar {
+  scrollbar-width: 0;
+}
+
+.mobile__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__list {
+  padding: 1rem;
+  border: 1 px solid black;
+  list-style: none;
+}
